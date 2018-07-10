@@ -6,7 +6,7 @@ def fizzbuzz(marisa)
   elsif marisa % 5 == 0
   "Buzz"
   end
-
+end
 fizzbuzz(3)
 fizzbuzz(5)
-fizzbuzz(4)
+fizzbuzz()
