@@ -1,7 +1,9 @@
-def fizzbuzz()
-  if 5 % 3 == 0
+def fizzbuzz(marisa)
+  if marisa % 3 == 0
     "Fizz"
   end
 end
 
 fizzbuzz(3)
+fizzbuzz(5)
+fizzbuzz()
