@@ -1,9 +1,9 @@
-def fizzbuzz(marisa)
-  if marisa % 3 , 5 == 0
+def fizzbuzz(int)
+  if int % 3 == 0 && 5 == 0
     "Fizzbuzz"
-  elsif marisa % 3 == 0
+  elsif int % 3 == 0
     "Fizz"
-  elsif marisa % 5 == 0
+  elsif int % 5 == 0
   "Buzz"
   end
 end
